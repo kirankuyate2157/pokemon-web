@@ -1,7 +1,15 @@
+import { Route, Routes } from "react-router";
+
+import HomeLayout from "./Layout/Home.Layout";
+import Home from "./Pages/home";
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">hello pockemon 🔥🌟🥂🤩 </h1>
+      <Routes>
+        <Route element={<HomeLayout />}>
+          <Route path="/" element={<Home />} />
+        </Route>
+      </Routes>
     </>
   );
 }

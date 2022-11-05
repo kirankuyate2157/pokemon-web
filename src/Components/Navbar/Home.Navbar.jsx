@@ -2,7 +2,7 @@ import React from 'react'
 import { FiMenu, FiSearch } from 'react-icons/fi'
 const HomeNavbar = () => {
     return (
-        <div className="max-w-5xl mx-auto">
+        <div className="max-w-5xl mx-auto ">
 
             <nav className="border-gray-200 px-2 ">
                 <div className="container mx-auto flex flex-wrap items-center justify-between">

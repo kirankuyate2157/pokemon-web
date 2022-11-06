@@ -5,7 +5,6 @@ import PokCard from '../Components/card';
 import SearchBanner from '../Components/SearchBanner';
 
 
-
 const Pokedex = () => {
     const [PokNames, setPokNames] = useState([]);
     const requestPokemons = async () => {

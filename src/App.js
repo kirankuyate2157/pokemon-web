@@ -5,7 +5,7 @@ import Home from "./Pages/home";
 import Pokedex from "./Pages/pokedex";
 
 //axios default settings
-axios.defaults.baseURL = "https://pokeapi.co/api/v2/pokemon/ditto";
+axios.defaults.baseURL = "https://pokeapi.co/api/v2/pokemon";
 axios.defaults.params = {};
 function App() {
   return (

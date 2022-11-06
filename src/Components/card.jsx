@@ -7,7 +7,7 @@ const PokCard = (props) => {
         < div className="w-64 p-4 border bg-yt-100 border-gray-100 rounded-lg shadow-xl hover:shadow-2xl  hover:w-74">
             < div className="items-center  " >
                 <div className="  bg-gray-200 w-56 h-56 lg:h-64 relative p-1 rounded-t-xl " >
-                    <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/${props.id}.png`}
+                    <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${props.id}.png`}
                         alt="poke images"
                         className="w-full h-full " />
                 </div>

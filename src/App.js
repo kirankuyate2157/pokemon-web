@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router";
 import axios from "axios";
 import HomeLayout from "./Layout/Home.Layout";
-import Home from "./Pages/home";
+// import Home from "./Pages/home";
 import Pokedex from "./Pages/pokedex";
 
 //axios default settings
@@ -12,8 +12,8 @@ function App() {
     <>
       <Routes>
         <Route element={<HomeLayout />}>
-          <Route path="/" element={<Home />} />
-          <Route path="/pokedex" element={<Pokedex />} />
+          {/* <Route path="/" element={<Home />} /> */}
+          <Route path="/" element={<Pokedex />} />
         </Route>
       </Routes>
     </>
